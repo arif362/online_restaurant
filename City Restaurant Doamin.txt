@@ -1,0 +1,59 @@
+Your Account Details
+Your account is now active.
+Main Hosting Details
+Control panel username
+	cucch_18266026
+Control panel password: cityrestaurant2016
+
+Control panel URL
+	cpanel.cuccfree.com
+MySQL username
+	cucch_18266026
+MySQL password
+	**********
+MySQL hostname
+	sql309.cuccfree.com
+FTP username
+	cucch_18266026
+FTP password
+	**********
+FTP host name 	ftp.cuccfree.com
+
+Domain: cityrestaurant.cu.cc
+User:city2016
+Pass:city@2016
+
+<18266026@hostingaccount.com>
+
+	
+Your Website URL's
+Home page
+	http://cityrestaurant.cuccfree.com
+
+
+
+
+Your Account Details
+Your account is now active.
+Main Hosting Details
+Control panel username
+	cucch_18266059
+Control panel password 	**********
+Control panel URL
+	cpanel.cuccfree.com
+MySQL username
+	cucch_18266059
+MySQL password
+	**********
+MySQL hostname
+	sql204.cuccfree.com
+FTP username
+	cucch_18266059
+FTP password
+	**********
+FTP host name 	ftp.cuccfree.com
+
+	
+Your Website URL's
+Home page
+	http://city2016.cuccfree.com

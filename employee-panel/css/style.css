@@ -1,0 +1,187 @@
+*{padding:0px; margin:0px;}
+
+body{font-family:veranda,arial; font-size:16px; line-height:25px; background-color:#FFFFFF;}
+a{text-decoration:none; list-style:none;}
+
+
+header{overflow:hidden; width:100%; height:40px; background:#9B6ACC;}
+.top_bar{width:980px; margin:0px auto; overflow:hidden;}
+.top_bar_left{width:700px; float:left; margin:5px;}
+.top_bar_left h1{font-size:16px;}
+.top_bar_right{float:right; margin:5px;}
+.top_bar_right img{}
+.top_bar_right ul{}
+.top_bar_right ul li{list-style:none; display:inline; margin:3px; padding:3px;}
+.top_bar_right ul li a{text-decoration:none; color:#FFFFFF; }
+.top_bar_right ul li a:hover{color:#FF0000;}
+
+ul.navigation li.highlight{ background:#FFFFFF;}
+ul.navigation li.highlight a{ color:#FFFFFF; cursor:default; background:#9B6ACC;}
+
+content{overflow:hidden; }
+.content_part{width:980px; margin:0px auto; overflow:hidden; border:2px solid #ddd; margin-top:10px;overflow:hidden;}
+.content_part_left{width:180px; float:left; margin:2px;}
+.content_part_left h2{}
+.content_part_left ul{border:2px solid #ddd; margin:5px; border-radius:3px;}
+.content_part_left ul li{list-style:none; display:block; margin:0px; padding:1px;}
+.content_part_left ul li a{text-decoration:none; display:block; background:#4968A6; padding:5px; text-align:center; font-size:16px; color:#FFFFFF; border-radius:5px; border:1px solid #4968A6;}
+.content_part_left ul li a:hover{color:#FF0000;}
+
+.content_part_right{width:770px;float:left; margin:5px;}
+.content_part_right h1{font-size:25px; color:#72BD4B; text-align:center; margin-top:60px; margin-left:60px;}
+.content_part_right h2{border-bottom:1px solid #72BD4B; width:770px;}
+.content_part_right ul{margin-top:80px; text-align:center; }
+.content_part_right ul li{list-style:none; display:inline; margin:5px; padding:5px;}
+.content_part_right ul li a{text-decoration:none; background:#D46F15; padding:5px; text-align:center; font-size:20px; color:#FFFFFF; font-style:bold; border:1px solid #ddd;}
+.content_part_right ul li a:hover{color:#FF0000;}
+
+.count_btn{width:960px; margin:0px auto; overflow:hidden; margin-top:50px;}
+.pending_btn{background:#9B6ACC; padding:5px; text-align:center; font-size:18px; color:#FFFFFF; border-radius:5px; border:1px solid #4968A6; width:220px; float:left; margin-left: 120px;}
+.successful_btn{background:#9B6ACC; padding:5px; text-align:center; font-size:18px; color:#FFFFFF; border-radius:5px; border:1px solid #4968A6; width:220px; float:left; margin-left: 50px;}
+.form_part{margin:5px; margin-left:50px;}
+
+input, textarea, select {
+	font-family: 'Times New Roman', arial;
+	font-size: 16px;
+}
+
+input.short[type='submit']  {
+	cursor: pointer; margin-top:10px; padding:5px; width:80px;
+}
+
+input.short[type='text'],
+input.short[type='password'] {
+	width: 200px;
+}
+
+input.medium[type='text'],
+input.medium[type='password'] {
+	width: 400px; padding:10px;
+}
+input.medium[type='text'],
+input.medium[type='password'] {
+	width: 400px; padding:10px;
+}
+input.medium2[type='text'],
+input.medium2[type='password']
+{
+	width: 280px;
+}
+input.long[type='text'],
+input.long[type='password'] {
+	width: 685px;
+}
+
+table.tbl1 {
+	margin-top: 10px;
+}
+table.tbl1 tr td input[type='file'] {
+	 margin-bottom:10px; padding:5px;
+}
+table.tbl1 tr td input[type='text'] {
+	height: 23px;
+	line-height: 23px; margin-bottom:10px; padding:5px;
+}
+table.tbl1 tr td select {
+	 margin-bottom:10px; padding:5px;
+}
+table.tbl1 tr td textarea{
+	 margin-bottom:10px; padding:17px;
+}
+table.tbl1 tr td input[type='password'] {
+	height: 23px;
+	line-height: 23px; margin-bottom:10px; padding:5px;
+}
+table.tbl1 tr td input[type='submit'] {
+	 margin-top:15px; padding:5px; width:80px;
+}
+table.tbl2 {
+	margin-top: 10px;
+}
+
+table.tbl2 tr th, table.tbl2 tr td {
+	padding: 2px;
+} 
+
+table.tbl2 tr td {
+	text-align: center; 
+}
+
+table.tbl2 tr th {
+	background-color: #72BD4B;
+	color: #fff;
+}
+
+table.tbl2 tr:nth-child(2n+1) td {
+	background-color: #eee;
+}
+
+table.tbl2 tr:nth-child(2n) td {
+	background-color: #ddd;
+}
+
+table.tbl2 tr td a {
+	color: #70726e;
+	text-decoration: none;
+}
+
+table.tbl2 h3 {
+	border-bottom: 2px solid #000;
+}
+.error {
+	color: red;
+	font-weight: bold;
+}
+
+.success {
+	color: green;
+	font-weight: bold;
+}
+
+/* ====================== Pagination Starts ====================== */
+
+div.pagination {
+    padding: 3px;
+    margin: 3px;
+	z-index: 1000;
+	font-size: 14px;
+	margin-bottom: 20px;	
+}
+
+div.pagination a {
+    padding: 5px 7px;
+    margin: 2px;
+    border: 1px solid #0D6B23;
+    text-decoration: none; /* no underline */
+	background-color: #1DA93E;
+    color: #FFF;
+	font-weight: bold;
+}
+
+div.pagination a:hover, div.pagination a:active {
+    border: 1px solid #0D6B23;
+    color: #FFF;
+	background-color: #63BC78;
+}
+
+div.pagination span.current {
+    padding: 5px 7px;
+    margin: 2px;
+	border: 1px solid #0D6B23;
+	font-weight: bold;
+	background-color: #63BC78;
+	color: #FFF;
+	font-weight: bold;
+}
+
+div.pagination span.disabled {
+	padding: 5px 7px;
+	margin: 2px;
+	border: 1px solid #929693;
+	color: #929693;
+}
+/* ====================== Pagination Ends ====================== */	
+
+footer{overflow:hidden;}
+.footer_part{width:360px; margin:0px auto; overflow:hidden; margin-top:30px;border:2px solid #ddd; background:#9B6ACC; text-align:center;}
+.footer_part h1{font-size:16px; color:#FFFFFF;}
